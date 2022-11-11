@@ -8,13 +8,13 @@ Either install nvm or node >= 10.
 
 #### MacOS/Linux
 
-To install or update nvm, run the install script for nvm located [here](https://github.com/nvm-sh/nvm/blob/v0.35.3/install.sh) or using the following commands. 
+To install or update nvm, run the install script for nvm located [here](https://github.com/nvm-sh/nvm/blob/v0.39.2/install.sh) or using the following commands. 
 
 ```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
 ```
 ```
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
 ```
 
 If you have troubleshooting issues, check out the [github repo](https://github.com/nvm-sh/nvm#troubleshooting-on-linux) for nvm.
@@ -30,8 +30,8 @@ If you have issues or need more info, check out the [github repo](https://github
 We can to install the latest version of node and make sure we use it.
 
 ```
-nvm install 14
-nvm use 14
+nvm install 18
+nvm use 18
 node --version
 ```
 
@@ -77,3 +77,4 @@ Check some of these out if you want to learn more about React:
 - [The Beginner's Guide to React (egghead.io videos)](https://egghead.io/courses/the-beginner-s-guide-to-react)
 - [Interactive React Challenges (freecodecamp)](https://www.freecodecamp.org/learn/front-end-libraries/react/)
 - [Full React Course 2020 (YouTube)](https://www.youtube.com/watch?v=4UZrsTqkcW4)
+- [Create REact App Build Issue](https://create-react-app.dev/docs/deployment/#serving-the-same-build-from-different-paths)

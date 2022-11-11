@@ -1,12 +1,15 @@
-import React from 'react';
 import './Header.css';
 
-function Header(props) { 
+function Header(props) {
+
     return(
         <div className="header">
             {props.title}
-         </div>
+        </div>
     )
+
 }
 
 export default Header;
+
+

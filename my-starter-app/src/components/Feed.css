@@ -1,8 +1,6 @@
 .feed {
-    width: 50%;
     margin: 0 auto; 
     padding: 20px; 
-    border: 1px dotted black; 
     height: 80vh; 
     overflow-y: auto;
     display: flex; 
@@ -12,9 +10,9 @@
 
 .newPostButton {
     background-color: #008140;
-    padding: 20px 20px;
-    height: 10px;
+    padding: 20px 32px;
     color: white; 
+    border: none;
     border-radius: 12px;
     display: block;
     line-height: 0px;
@@ -24,7 +22,6 @@
 label {
     font-size: 16px;
 }
-
 
 #usernameInput {
     box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
