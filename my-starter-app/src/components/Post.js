@@ -1,8 +1,5 @@
-import React from 'react';
 import './Post.css';
+const IMAGE_URL='https://picsum.photos/500/500?image=';
 
-function Post(props) { 
-    return;
-}
 
-export default Post;
+

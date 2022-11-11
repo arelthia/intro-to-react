@@ -4,3 +4,7 @@
     background-color: white;
     border: 1px solid lightgrey;
 }
+
+.post img {
+    max-width: 90%;
+}
