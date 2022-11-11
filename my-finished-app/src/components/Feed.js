@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import './Feed.css';
 import Post from './Post';
+import './Feed.css';
 
-function Feed() { 
+function Feed(){
     const postList = [
         {
             username: 'kristen',
@@ -10,27 +10,30 @@ function Feed() {
             caption: 'my first picture'
         },
         {
-            username: 'beverly',
+            username: 'janet',
             imageId: 10,
             caption: 'my second picture' 
         },
         {
-            username: 'bori',
+            username: 'anthony',
             imageId: 20,
             caption: 'my third picture'
-        }
-    ]
-    const [posts,setPosts] = useState(postList)
-    const [imageId,setImageId] = useState(30)
-    const [username,setUsername] = useState("")
+        }        
+    ];
+
+    const [posts, setPosts] = useState(postList);
+    const [imageId,setImageId] = useState(30);
+    const [username,setUsername] = useState("");
 
     const handleCreateNewPost = event => {
-        console.log(event)
-        setPosts([{ username: username, imageId: imageId, caption: "my caption" }, ...posts]);
-        setImageId(imageId+10)
-        setUsername("")
-        console.log(posts, imageId)
-    };
+        setPosts([{
+            username: username, 
+            imageId: imageId,
+            caption: "my caption"
+        }, ...posts]);
+        setImageId(imageId+10);
+        setUsername("");
+    }
 
     return(
         <div className="feed">
@@ -45,3 +48,9 @@ function Feed() {
 }
 
 export default Feed;
+
+
+
+
+
+

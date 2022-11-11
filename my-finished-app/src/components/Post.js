@@ -1,8 +1,7 @@
-import React from 'react';
 import './Post.css';
-const IMAGE_URL='https://picsum.photos/500/500?image='
+const IMAGE_URL='https://picsum.photos/500/500?image=';
 
-function Post(props) { 
+function Post(props){
     return(
         <div className="post">
             <h1>@{props.username}</h1>
@@ -12,4 +11,7 @@ function Post(props) {
     )
 }
 
+
 export default Post;
+
+
