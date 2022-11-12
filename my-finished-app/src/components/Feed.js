@@ -5,12 +5,12 @@ import './Feed.css';
 function Feed(){
     const postList = [
         {
-            username: 'kristen',
+            username: 'arelthia',
             imageId: 0,
             caption: 'my first picture'
         },
         {
-            username: 'janet',
+            username: 'denise',
             imageId: 10,
             caption: 'my second picture' 
         },

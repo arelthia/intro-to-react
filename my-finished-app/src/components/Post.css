@@ -5,6 +5,10 @@
     border: 1px solid lightgrey;
 }
 
+.post:last-of-type {
+    margin-bottom: 15vh;
+}
+
 .post img {
     max-width: 90%;
 }
