@@ -40,7 +40,7 @@ node --version
 This repo contains starter code (with some CSS formatting and the file structure) and the finished code from the demo. Take a peek or try running it locally by running a few commands below. 
 
 ```
-git clone https://github.com/kristenkoyanagi/intro-to-react
+git clone https://github.com/arelthia/intro-to-react
 cd intro-to-react
 cd my-starter-app
 npm install
@@ -77,4 +77,4 @@ Check some of these out if you want to learn more about React:
 - [The Beginner's Guide to React (egghead.io videos)](https://egghead.io/courses/the-beginner-s-guide-to-react)
 - [Interactive React Challenges (freecodecamp)](https://www.freecodecamp.org/learn/front-end-libraries/react/)
 - [Full React Course 2020 (YouTube)](https://www.youtube.com/watch?v=4UZrsTqkcW4)
-- [Create REact App Build Issue](https://create-react-app.dev/docs/deployment/#serving-the-same-build-from-different-paths)
+- [Create React App Build Issue](https://create-react-app.dev/docs/deployment/#serving-the-same-build-from-different-paths)
