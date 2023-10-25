@@ -9,12 +9,11 @@ function App() {
     <div className="App">
       <Header title="PhotoFeed" />
       <Feed />
-      <Footer text="2022" />
+      <Footer text="2023" />
     </div>
   );
 }
 
 export default App;
-
 
 
