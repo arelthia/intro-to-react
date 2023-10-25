@@ -2,7 +2,7 @@
 
 ## Setup for Demo
 
-Either install nvm or node >= 10.
+Either install nvm or node version 14.18+, 16+.
 
 ### Install Nvm
 
@@ -11,10 +11,10 @@ Either install nvm or node >= 10.
 To install or update nvm, run the install script for nvm located [here](https://github.com/nvm-sh/nvm/blob/v0.39.2/install.sh) or using the following commands. 
 
 ```
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+curl -o- curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 ```
 ```
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+wget -qO- curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 ```
 
 If you have troubleshooting issues, check out the [github repo](https://github.com/nvm-sh/nvm#troubleshooting-on-linux) for nvm.
@@ -49,32 +49,34 @@ npm start
 
 ## If you want to build an app from scratch
 
-Run the [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html)
+Run the [create vite](https://vitejs.dev/)
 
-Run either block of commands below.
+Run the command below.
 ```
-npm init react-app my-app
-cd my-app
-npm start
+npm create vite@latest
+
 ```
-``` 
-npx create-react-app my-app
-cd my-app
-npm start
-```
+Then follow the prompts
+
+    - Type the project-name
+    - Select React as the framework
+    - Select Javascript as the variant
+
+3. Cd into the project directory, run `npm install`, and then `npm run dev`.
+4. View the app in the browser at http://localhost:5173/ 
+
 
 [npm](https://www.npmjs.com/) and [yarn](https://yarnpkg.com/) are separate node package managers that helps you install dependencies, test, run, and build your app. You can use either one as long as you stick with one.
 
 
 ### Check your starter app
 
-If you open [http://localhost:3000](http://localhost:3000), you should see the starter app running from the `create-react-app` command.
+If you open [http://localhost:5173](http://localhost:5173), you should see the starter app running from the `vite` command.
 
 
 ## Free React Resources
 Check some of these out if you want to learn more about React:
-- [React Tutorial (docs)](https://reactjs.org/tutorial/tutorial.html)
-- [The Beginner's Guide to React (egghead.io videos)](https://egghead.io/courses/the-beginner-s-guide-to-react)
-- [Interactive React Challenges (freecodecamp)](https://www.freecodecamp.org/learn/front-end-libraries/react/)
-- [Full React Course 2020 (YouTube)](https://www.youtube.com/watch?v=4UZrsTqkcW4)
-- [Create React App Build Issue](https://create-react-app.dev/docs/deployment/#serving-the-same-build-from-different-paths)
+- [React Tutorial (docs)](https://react.dev/learn/tutorial-tic-tac-toe)
+- [Learn React With This One Project](https://www.youtube.com/watch?v=Rh3tobg7hEo)
+- [React with A Framework](https://www.youtube.com/watch?v=TJQbDPGzm0Y)
+
